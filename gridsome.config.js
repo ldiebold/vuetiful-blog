@@ -6,9 +6,13 @@
 
 module.exports = {
   siteName: 'Vuetiful Blog',
+  siteUrl: 'https://blog.vuetiful.life',
   plugins: [
     {
-      use: `gridsome-plugin-netlify-cms`
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/cms`
+      }
     } 
   ]
 }
