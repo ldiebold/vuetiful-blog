@@ -21,11 +21,10 @@
       :key="edge.node.id"
     >
       <g-image
+        v-if="edge.node.image"
         :alt="edge.node.image_alt"
         :src="edge.node.image"
-        width="100%"
-        style="border-radius: 50%;"
-        class="shadow-2"
+        width="300"
       />
       <h2>{{ edge.node.title }}</h2>
       <div v-text="edge.node.excerpt" />
@@ -43,6 +42,8 @@ query Posts {
         id
         title
         excerpt
+        image (width: 300, height: 220, quality: 90)
+        image_alt
       }
     }
   }
