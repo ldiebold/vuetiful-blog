@@ -43,8 +43,6 @@ query Posts {
         id
         title
         excerpt
-        date
-        image
       }
     }
   }
