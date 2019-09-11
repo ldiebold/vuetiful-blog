@@ -16,3 +16,5 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image Alt", name: "image_alt", widget: "string"}
