@@ -42,7 +42,6 @@ query Posts {
         id
         title
         excerpt
-        thumbnail_image
         image_alt
       }
     }
