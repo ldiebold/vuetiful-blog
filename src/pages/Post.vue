@@ -26,9 +26,7 @@
           :src="`${edge.node.image}`"
         />
       </div>
-      <h2>
-        <g-link :to="edge.node.path">{{ edge.node.title }}</g-link>
-      </h2>
+      <h2>{{ edge.node.title }}</h2>
       <div v-text="edge.node.excerpt" />
     </div>
    
@@ -45,7 +43,6 @@ query Posts {
         title
         excerpt
         image_alt
-        path
       }
     }
   }
