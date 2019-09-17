@@ -6,8 +6,6 @@ image: /uploads/art.jpeg
 thumbnail_image: /uploads/art.jpeg
 image_alt: Vue Logo
 ---
-# Why I love my life
-
 My girlfriend is amazing.
 
 I eat good food.
