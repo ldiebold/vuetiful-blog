@@ -1,8 +1,9 @@
 ---
-title: 
-excerpt: 'I love my life right now, this is why...'
+title: Why I LOVE Vue
+excerpt: A post about my love for vue
 date: 2019-09-10T12:34:25.514Z
-image: /uploads/vue-logo.svg
+image: /uploads/art.jpeg
+thumbnail_image: /uploads/art.jpeg
 image_alt: Vue Logo
 ---
 # Why I love my life
