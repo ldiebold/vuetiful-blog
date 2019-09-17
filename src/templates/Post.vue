@@ -2,7 +2,7 @@
 
 <template>
   <Layout :title="$page.post.title">
-
+    <h1 v-text="$page.post.title" />
     <div v-html="$page.post.content" />
   </Layout>
 </template>
