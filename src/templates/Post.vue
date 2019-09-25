@@ -1,7 +1,10 @@
-<!-- src/templates/WordPressPost.vue -->
-
 <template>
   <Layout :title="$page.post.title">
+    <g-image
+      v-if="$page.post.image"
+      :src="$page.post.image"
+    />
+
     <h1 v-text="$page.post.title" />
     <div v-html="$page.post.content" />
   </Layout>
@@ -12,6 +15,7 @@ query Post ($id: String!) {
   post: post (id: $id) {
     title
     content
+    image (width: 200, height: 100, quality: 90)
   }
 }
 </page-query>

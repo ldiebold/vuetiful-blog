@@ -19,6 +19,12 @@ module.exports = {
   },
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-86931937-8',
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'posts/**/*.md',

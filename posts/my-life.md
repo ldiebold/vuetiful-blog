@@ -6,8 +6,4 @@ image: /uploads/art.jpeg
 thumbnail_image: /uploads/art.jpeg
 image_alt: Vue Logo
 ---
-My girlfriend is amazing.
-
-I eat good food.
-
-I have a job that's fun and challenging!
+Lorem Ipsum
